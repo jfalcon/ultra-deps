@@ -2,7 +2,6 @@
   "name": "@jfalcon/ultra-deps",
   "description": "Ultra Mobile Dependency Package",
   "main": "index.js",
-  "private": true,
   "version": "1.0.0",
   "type": "commonjs",
   "publishConfig": {
