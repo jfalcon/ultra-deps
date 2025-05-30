@@ -1,9 +1,20 @@
 {
-  "name": "ultra-deps",
+  "name": "@jfalcon/ultra-deps",
+  "description": "Ultra Mobile Dependency Package",
   "main": "index.js",
   "private": true,
   "version": "1.0.0",
   "type": "commonjs",
+  "publishConfig": {
+    "@jfalcon:registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfalcon/ultra-deps.git"
+  },
   "peerDependencies": {
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",

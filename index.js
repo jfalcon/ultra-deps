@@ -2,4 +2,9 @@
 // should be listed as a peer dependency here. if it's a dev dependency in a MFE application
 // it does not not need to be enforced globally
 
-// also, leave this package as a CJS export
+// this is ES5 and CJS on purpose
+function includeMeNot() {
+  return true;
+}
+
+module.exports = getName;
